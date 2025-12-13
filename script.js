@@ -6,11 +6,23 @@ let tombol = document.getElementById("tombol");
 let namaInput = document.getElementById("namaInput");
 let tombolKirim = document.getElementById("kirim");
 
-tombol.addEventListener("click", function () {
-  judul.innerText = "Tombol atas diklik";
+let sudahDiKlik = false;
+
+tombol.addEventListener("click", function() {
+    judul.innerText = "Tombol atas di klik";
 });
 
 tombolKirim.addEventListener("click", function () {
-  let nama = namaInput.value;
-  judul.innerText = "Halo " + nama;
+    let nama = namaInput.value;
+    judul.innerText = "Halo " + nama;
+});
+
+tombol.addEventListener("click", function () {
+    if (sudahDiKlik === false) {
+        judul.innerText = "Tombol sudah diklik";
+        sudahDiKlik = true;
+    } else {
+        judul.innerText = "Klik lagi dong";
+        sudahDiKlik = false;
+    }
 });
