@@ -15,5 +15,6 @@ toggle.addEventListener ("click", function () {
 });
 
 reset.addEventListener ("click", function () {
+    sudahDiKlik = false;
     mode.innerText = "Mode : OFF"
 })
