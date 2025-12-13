@@ -1,0 +1,1 @@
+console.log("Halo JavaScript, aku mulai belajar");
