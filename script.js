@@ -14,7 +14,12 @@ tombol.addEventListener("click", function() {
 
 tombolKirim.addEventListener("click", function () {
     let nama = namaInput.value;
-    judul.innerText = "Halo " + nama;
+
+    if (nama === "") {
+        judul.innerText = "Nama tidak boleh kosong";
+    } else{
+        judul.innerText = "Halo " + nama;
+    }
 });
 
 tombol.addEventListener("click", function () {
