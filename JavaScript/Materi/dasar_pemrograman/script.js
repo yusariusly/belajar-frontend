@@ -8,7 +8,7 @@ namaGuru.push('dea', 'fikri') // untuk menambahkan
 namaGuru.shift() // untuk menghapus index pertama/ yang bernama Jordi
 namaGuru.pop() // untuk menghilangkan index terakhir atau fikri
 
-beratBadan = 60
+beratBadan = 65
 
 // == artinya comparasi/perbandingan
 if(pacar == null){
@@ -39,3 +39,4 @@ alert(namaGuru[0])
 alert(`nama saya ${nama} usia saya itu ${usia} tinggi badan saya adalah ${tinggiBadan} berat badan saya ${beratBadan} dan pacar saya ${pacar}`, )
 
 alert(`saldo awal saya sebesar ${saldoAwal} & saldoo tambahan yang akan saya miliki sebesar ${saldoTambahan} jadi total saldo yang saya miliki adalah sebanyak RP.${saldoAkhir}`,)
+
