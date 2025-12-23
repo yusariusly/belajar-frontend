@@ -19,6 +19,14 @@ let produk = [
 console.log(produk[1].harga);
 
 //latihan 4
+let stok = 0;
+
+if (stok === 0) {
+  console.log("Stok habis");
+} else {
+  console.log("Stok tersedia");
+}
+
 
 //latihan 5
 let hasil = document.getElementById ("hasil");
